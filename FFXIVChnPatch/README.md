@@ -1,0 +1,1 @@
+FFXIVChnPatch 0817 For 5.05
