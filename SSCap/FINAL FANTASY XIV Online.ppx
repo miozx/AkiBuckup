@@ -22,6 +22,11 @@
       <Port>1080</Port>
       <Options>48</Options>
     </Proxy>
+    <Proxy id="101" type="SOCKS5">
+      <Address>127.0.0.1</Address>
+      <Port>1088</Port>
+      <Options>48</Options>
+    </Proxy>
   </ProxyList>
   <ChainList />
   <RuleList>
@@ -31,9 +36,10 @@
       <Action type="Direct" />
     </Rule>
     <Rule enabled="true">
-      <Name>FF14</Name>
-      <Applications>ffxivboot.exe;ffxivboot64.exe;ffxivconfig.exe;ffxivconfig64.exe;ffxivlauncher.exe;ffxivlauncher64.exe;ffxivsysinfo.exe;ffxivsysinfo64.exe;ffxivupdater.exe;ffxivupdater64.exe;ffxiv.exe;ffxiv_dx11.exe</Applications>
-      <Action type="Proxy">100</Action>
+      <Name>FINAL FANTASY XIV Online</Name>
+      <Applications>ffxivboot.exe;ffxivboot64.exe;ffxivconfig.exe;ffxivconfig64.exe;ffxivlauncher.exe;ffxivlauncher64.exe;ffxivsysinfo.exe;ffxivsysinfo64.exe;ffxivupdater.exe;ffxivupdater64.exe;ffxiv.exe;ffxiv_dx11.exe;</Applications>
+      <Ports>80;443;54992-54994;55006-55007;55021-55040;</Ports>
+      <Action type="Proxy">101</Action>
     </Rule>
     <Rule enabled="true">
       <Name>Default</Name>
