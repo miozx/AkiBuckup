@@ -6,14 +6,6 @@ https://github.com/NetchX/Netch/blob/master/docs/CHANGELOG.zh-CN.md
 
 ## 下载与安装
 
-当前发布版本为免安装版本，解压后点击 Netch.exe 即可使用，目前仅支持 Windows
-
-**注意**
-
-- Windows 64 位系统使用 x64 版本
-- Windows 32 位系统使用 x86 版本
-- 否则你会遇到驱动问题
-
 [最新版下载地址](https://github.com/netchx/Netch/releases)
 
 ## 简介
