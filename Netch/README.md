@@ -1,12 +1,8 @@
 # Netch
 
-## 更新日志
+## [更新日志](https://github.com/NetchX/Netch/blob/master/docs/CHANGELOG.zh-CN.md)
 
-https://github.com/NetchX/Netch/blob/master/docs/CHANGELOG.zh-CN.md
-
-## 下载与安装
-
-[最新版下载地址](https://github.com/netchx/Netch/releases)
+## [下载地址](https://github.com/netchx/Netch/releases)
 
 ## 简介
 
